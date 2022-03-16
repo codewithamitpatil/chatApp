@@ -47,7 +47,7 @@ export const IoPractise = () => {
 
   useEffect(()=>{
 
-  socket.current = io.connect('http://localhost:7000');
+  socket.current = io.connect('https://amitvaishanvipatil.herokuapp.com');
 
 
   socket.current.on('myId',data=>{
