@@ -1,0 +1,8 @@
+
+
+
+io.emit - send message to all connected clients 
+
+socket.emit - only from where it was orignated
+
+socket.broadcast.emit - send message to all connected except from orignated
